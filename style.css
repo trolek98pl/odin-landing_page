@@ -75,6 +75,55 @@ body {
     background-color: grey;
 }
 
-.flex_awesome p, button {
-    align-items: center;
+.flex_main {
+
+}
+
+.flex_main h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.flex_image_subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+
+    text-align: center;
+}
+
+.flex_image_subtext img {
+    border: 1px solid #3882f6;
+    border-radius: 5%;
+    height: 100px;
+    width: 100px;
+}
+
+.flex_quote {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.flex_quote h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.flex_quote p {
+    text-align: right;
+    padding-right: 30%;
+    font-size: 18px;
+}
+
+.flex_call {
+    background-color: #3882f6;
+    /* border: 1px solid #3882f6; */
+    border-radius: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
