@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header p, li {
+    color: #f9faf8;
+}
+
+.header li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.flex_header_top {
+    display: flex;
+    font-size: 24px;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
