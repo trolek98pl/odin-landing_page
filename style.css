@@ -49,6 +49,10 @@ body {
     justify-content: space-between;
 }
 
+.flex_header_top ul {
+    gap: 5px;
+}
+
 .flex_header_top p {
     color: #f9faf8;
 }
